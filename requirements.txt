@@ -3,4 +3,4 @@ Image
 pandas
 numpy
 joblib
-matplotlib.pyplot
+matplotlib

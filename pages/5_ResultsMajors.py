@@ -8,9 +8,9 @@ st.set_page_config(
 
 st.page_link("Home.py", label="Home", icon="🏠")
 
-st.title("UA Majors for Your Prediction")
-st.write("These are the UA majors that are contained in your predicted major category.")
-st.write("Click on the link to view information about the major, the classes needed at UA, and career opportunities.")
+st.title("University of Alabama Majors for Your Prediction")
+st.write("These are the University of Alabama majors that are contained in your predicted major category.")
+st.write("Click on the link to view information about the major, the classes needed at The University of Alabama, and career opportunities.")
 st.write("""The number next to each major is its average salary per year. These figures are estimates and this is **not** starting salary information. Many majors lead to jobs that require Master's degrees or other graduate schooling, 
          but these salaries typically do not account for careers that require graduate schooling and are salaries for jobs obtained with just the undergraduate degree listed. Some majors do not have salary data, as they are not specific 
          enough or the career options are too broad. Some majors have salary data with job titles in parentheses that this data corresponds to, though there are other jobs with other salaries available for those pursuing that degree. 

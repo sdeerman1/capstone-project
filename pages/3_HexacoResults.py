@@ -16,7 +16,7 @@ st.markdown("""For more information about your results and what high and low sco
 if st.button('UA Majors for your prediction'):
     st.switch_page('pages/5_ResultsMajors.py')
 
-image = Image.open('Hexaco.png')
+image = Image.open('HEXACO.png')
 left, center, right = st.columns([2, 3, 1])
 center.image(image, use_column_width=True)
 

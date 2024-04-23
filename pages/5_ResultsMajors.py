@@ -15,6 +15,8 @@ st.write("""The number next to each major is its average salary per year. These 
          but these salaries typically do not account for careers that require graduate schooling and are salaries for jobs obtained with just the undergraduate degree listed. Some majors do not have salary data, as they are not specific 
          enough or the career options are too broad. Some majors have salary data with job titles in parentheses that this data corresponds to, though there are other jobs with other salaries available for those pursuing that degree. 
          All salary data has been taken from mynextmove.org unless otherwise noted with an "*".""")
+if st.button("More about your HEXACO scores!"):
+    st.switch_page('pages/3_HexacoResults.py')
 st.write('')
 st.write("Your prediction: ", st.session_state.prediction)
 
